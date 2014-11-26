@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78A332C21A25D44B0012E9D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A332C11A25D44B0012E9D8 /* main.m */; };
+		78A332C51A25D44B0012E9D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A332C41A25D44B0012E9D8 /* AppDelegate.m */; };
+		78A332C81A25D44B0012E9D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A332C71A25D44B0012E9D8 /* ViewController.m */; };
+		78A332CB1A25D44B0012E9D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78A332C91A25D44B0012E9D8 /* Main.storyboard */; };
+		78A332CD1A25D44B0012E9D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78A332CC1A25D44B0012E9D8 /* Images.xcassets */; };
+		78A332D91A25D44B0012E9D8 /* ganeshgitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A332D81A25D44B0012E9D8 /* ganeshgitTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78A332D31A25D44B0012E9D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78A332B41A25D44B0012E9D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78A332BB1A25D44B0012E9D8;
+			remoteInfo = ganeshgit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		78A332BC1A25D44B0012E9D8 /* ganeshgit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ganeshgit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78A332C01A25D44B0012E9D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78A332C11A25D44B0012E9D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		78A332C31A25D44B0012E9D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		78A332C41A25D44B0012E9D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		78A332C61A25D44B0012E9D8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		78A332C71A25D44B0012E9D8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		78A332CA1A25D44B0012E9D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		78A332CC1A25D44B0012E9D8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		78A332D21A25D44B0012E9D8 /* ganeshgitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ganeshgitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78A332D71A25D44B0012E9D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78A332D81A25D44B0012E9D8 /* ganeshgitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ganeshgitTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78A332B91A25D44B0012E9D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78A332CF1A25D44B0012E9D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78A332B31A25D44B0012E9D8 = {
+			isa = PBXGroup;
+			children = (
+				78A332BE1A25D44B0012E9D8 /* ganeshgit */,
+				78A332D51A25D44B0012E9D8 /* ganeshgitTests */,
+				78A332BD1A25D44B0012E9D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78A332BD1A25D44B0012E9D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78A332BC1A25D44B0012E9D8 /* ganeshgit.app */,
+				78A332D21A25D44B0012E9D8 /* ganeshgitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78A332BE1A25D44B0012E9D8 /* ganeshgit */ = {
+			isa = PBXGroup;
+			children = (
+				78A332C31A25D44B0012E9D8 /* AppDelegate.h */,
+				78A332C41A25D44B0012E9D8 /* AppDelegate.m */,
+				78A332C61A25D44B0012E9D8 /* ViewController.h */,
+				78A332C71A25D44B0012E9D8 /* ViewController.m */,
+				78A332C91A25D44B0012E9D8 /* Main.storyboard */,
+				78A332CC1A25D44B0012E9D8 /* Images.xcassets */,
+				78A332BF1A25D44B0012E9D8 /* Supporting Files */,
+			);
+			path = ganeshgit;
+			sourceTree = "<group>";
+		};
+		78A332BF1A25D44B0012E9D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78A332C01A25D44B0012E9D8 /* Info.plist */,
+				78A332C11A25D44B0012E9D8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		78A332D51A25D44B0012E9D8 /* ganeshgitTests */ = {
+			isa = PBXGroup;
+			children = (
+				78A332D81A25D44B0012E9D8 /* ganeshgitTests.m */,
+				78A332D61A25D44B0012E9D8 /* Supporting Files */,
+			);
+			path = ganeshgitTests;
+			sourceTree = "<group>";
+		};
+		78A332D61A25D44B0012E9D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78A332D71A25D44B0012E9D8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78A332BB1A25D44B0012E9D8 /* ganeshgit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78A332DC1A25D44C0012E9D8 /* Build configuration list for PBXNativeTarget "ganeshgit" */;
+			buildPhases = (
+				78A332B81A25D44B0012E9D8 /* Sources */,
+				78A332B91A25D44B0012E9D8 /* Frameworks */,
+				78A332BA1A25D44B0012E9D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ganeshgit;
+			productName = ganeshgit;
+			productReference = 78A332BC1A25D44B0012E9D8 /* ganeshgit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78A332D11A25D44B0012E9D8 /* ganeshgitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78A332DF1A25D44C0012E9D8 /* Build configuration list for PBXNativeTarget "ganeshgitTests" */;
+			buildPhases = (
+				78A332CE1A25D44B0012E9D8 /* Sources */,
+				78A332CF1A25D44B0012E9D8 /* Frameworks */,
+				78A332D01A25D44B0012E9D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78A332D41A25D44B0012E9D8 /* PBXTargetDependency */,
+			);
+			name = ganeshgitTests;
+			productName = ganeshgitTests;
+			productReference = 78A332D21A25D44B0012E9D8 /* ganeshgitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78A332B41A25D44B0012E9D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Rakatech;
+				TargetAttributes = {
+					78A332BB1A25D44B0012E9D8 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					78A332D11A25D44B0012E9D8 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 78A332BB1A25D44B0012E9D8;
+					};
+				};
+			};
+			buildConfigurationList = 78A332B71A25D44B0012E9D8 /* Build configuration list for PBXProject "ganeshgit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78A332B31A25D44B0012E9D8;
+			productRefGroup = 78A332BD1A25D44B0012E9D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78A332BB1A25D44B0012E9D8 /* ganeshgit */,
+				78A332D11A25D44B0012E9D8 /* ganeshgitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78A332BA1A25D44B0012E9D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78A332CB1A25D44B0012E9D8 /* Main.storyboard in Resources */,
+				78A332CD1A25D44B0012E9D8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78A332D01A25D44B0012E9D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78A332B81A25D44B0012E9D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78A332C81A25D44B0012E9D8 /* ViewController.m in Sources */,
+				78A332C51A25D44B0012E9D8 /* AppDelegate.m in Sources */,
+				78A332C21A25D44B0012E9D8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78A332CE1A25D44B0012E9D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78A332D91A25D44B0012E9D8 /* ganeshgitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78A332D41A25D44B0012E9D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78A332BB1A25D44B0012E9D8 /* ganeshgit */;
+			targetProxy = 78A332D31A25D44B0012E9D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		78A332C91A25D44B0012E9D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78A332CA1A25D44B0012E9D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78A332DA1A25D44B0012E9D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		78A332DB1A25D44C0012E9D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78A332DD1A25D44C0012E9D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = ganeshgit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		78A332DE1A25D44C0012E9D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = ganeshgit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		78A332E01A25D44C0012E9D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ganeshgitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ganeshgit.app/ganeshgit";
+			};
+			name = Debug;
+		};
+		78A332E11A25D44C0012E9D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ganeshgitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ganeshgit.app/ganeshgit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78A332B71A25D44B0012E9D8 /* Build configuration list for PBXProject "ganeshgit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78A332DA1A25D44B0012E9D8 /* Debug */,
+				78A332DB1A25D44C0012E9D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78A332DC1A25D44C0012E9D8 /* Build configuration list for PBXNativeTarget "ganeshgit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78A332DD1A25D44C0012E9D8 /* Debug */,
+				78A332DE1A25D44C0012E9D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		78A332DF1A25D44C0012E9D8 /* Build configuration list for PBXNativeTarget "ganeshgitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78A332E01A25D44C0012E9D8 /* Debug */,
+				78A332E11A25D44C0012E9D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78A332B41A25D44B0012E9D8 /* Project object */;
+}
